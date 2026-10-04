@@ -12,3 +12,8 @@ export type Producto = {
   imagen: string // URL de la foto
   stock: number
 }
+
+export type ItemCarrito = {
+  producto : Producto
+  cantidad: number
+}

@@ -37,7 +37,7 @@ function App() {
       setCarrito([...carrito, { producto: producto, cantidad: 1 }])
     }
   }
-
+  console.log(carrito)
   return (
     <>
       <header className="header">
